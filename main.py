@@ -11,7 +11,6 @@ from dotenv import load_dotenv
 import gzip
 import requests
 from tqdm import tqdm
-from tqdm import tqdm
 
 # Setting Environment Variables
 
