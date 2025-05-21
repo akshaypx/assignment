@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 import gzip
 import requests
 from tqdm import tqdm
+from tqdm import tqdm
 
 # Setting Environment Variables
 
@@ -30,8 +31,6 @@ def log_time(msg, start_time):
     logging.info(f"{msg} — completed in {elapsed:.2f} seconds")
 
 # Downloading file & unzipping
-
-from tqdm import tqdm
 
 def download_file(url):
     start = time.time()
